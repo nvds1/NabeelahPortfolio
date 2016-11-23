@@ -184,6 +184,7 @@ h3{
 .vid{
     width: 80%;
     margin: 0 auto;
+    height: 620px;
 }
 
 .video{
@@ -319,19 +320,38 @@ h3{
     #rig li {
         width:33%;
     }
+    .vid{
+    width: 600px;
+    margin: 0 auto;
+    height: 500px;
+}
+
 }
 
 @media (max-width: 700px) {
     #rig li {
         width:33.33%;
     }
+    .vid{
+    width: 700px;
+    margin: 0 auto;
+    height: 600px;
+}
+
 }
 
 @media (max-width: 550px) {
     #rig li {
         width:50%;
     }
+    .vid{
+    width: 500px;
+    margin: 0 auto;
+    height: 450px;
 }
+
+}
+
 
 
 
