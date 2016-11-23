@@ -1,0 +1,364 @@
+ body, html {
+    height: 100%;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.headerimg{
+	width: 80%;
+	margin: 0 auto;
+	padding-top:20px; 
+}
+.logo{
+	width: 100%;
+    margin: 0 auto;
+}
+.navbar{
+    margin-top: 50px;
+	width:40%;
+	margin: 0 auto;
+
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+   font-family: 'Advent Pro', sans-serif;    
+    font-size: 16px;
+    
+}
+
+li {
+    float: left;
+ }
+li a {
+    display: block;
+    color: #000;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+li a:hover {
+     background-image: linear-gradient(to right, #84DCC6, #78C8B4, #548C7F);
+    
+    color: #fff;
+}
+i:hover{
+    color:#84DCC6;
+
+}
+i a{
+    text-decoration: none;
+}
+/*----------- all text in portfolio--------*/
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000;
+    text-align: center;
+    font-size:24px;
+
+}
+p{
+   font-family: 'Josefin Sans', sans-serif;
+    font-size:18px;
+}
+h2{
+   font-family: 'Josefin Sans', sans-serif;
+    font-size:18px;
+}
+h3{
+   font-family: 'Josefin Sans', sans-serif;
+    font-size:11px;
+}
+
+/*-------about--------*/
+
+.about{
+    width: 100%;
+    margin: 0 auto;
+    border: #84DCC6 2px solid;
+    display: block;
+    background-color: #fff;
+    color: black;
+    margin-top: 150px;
+    text-align: center;
+    padding: 5px;
+}
+.aboutpic{
+    width: 200px;
+}
+.triangles{
+    width: 100px;
+ 
+}
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 20px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    border:1px solid #84DCC6;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+    font-family: 'Avenir';
+}       
+
+.back-to-top:hover {    
+    background-color:#84DCC6;
+    border: 0;
+    color: #fff;
+}
+
+*/
+
+/*showreel*/
+.showreel{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    margin-top: 250px;
+}
+
+}
+.h1other{
+    margin-top:200px;
+    
+}
+.h1show{
+    margin-top:200px;
+   
+}
+/*portfolio*/
+.portfolio{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    margin-bottom:100px;
+}
+
+/*contact*/
+.contact{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    margin-top: 80px;
+    border: #84DCC6 solid 2px;
+}
+
+
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    display: block;
+    padding: 15px;
+
+}
+.line{
+    width: 150px;
+    color: #000;
+    background-color: #000;
+    height: 3px;
+}
+.line2{
+    width: 100px;
+    color: #000;
+    background-color: #000;
+    height: 1px;
+}
+
+.vid{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.video{
+    width: 100%;
+    margin: 0 auto;
+    display:block;
+}
+
+.slideshow{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    height: 350px;
+    margin-top: 150px;
+
+}
+.mySlides {
+    display:none;
+    width: 80%;
+    margin: 0 auto;
+    height: 450px;
+}
+
+.grid {
+    margin-top: 100px;
+   
+}
+
+.grid ul {
+    width: 100%; 
+}
+
+
+.rig {
+    max-width:100%;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+}
+.rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:30%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #000 no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+
+#rig li:hover .rig-overlay {
+    opacity:0.8;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Avenir';
+    font-weight:normal!important;
+    top:40%;
+    color:#fff;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+.img2{
+    display: none;
+}
+.img2:hover{
+    display: none;
+}
+
+.fix{
+    clear: both;
+}
+
+
+@media (max-width: 9000px) {
+    #rig li {
+        width:33%;
+    }
+}
+
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
